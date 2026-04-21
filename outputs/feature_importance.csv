@@ -1,0 +1,30 @@
+feature,importance
+cat__cp_asymptomatic,0.10638734559154056
+num__chol,0.09482932557208909
+num__thalch,0.09473822292474554
+num__age,0.08880379923563672
+num__oldpeak,0.0864823954768038
+cat__exang_True,0.06471414195917696
+num__trestbps,0.05676070097671711
+cat__exang_False,0.054815811209566474
+cat__cp_atypical angina,0.042143290807795046
+cat__dataset_Switzerland,0.032360967751840074
+cat__sex_Male,0.027202819267216537
+cat__sex_Female,0.025320206298614808
+cat__thal_normal,0.02364801729382123
+num__ca,0.02140180236341198
+cat__dataset_Hungary,0.019015428175647466
+cat__thal_reversable defect,0.01747557867654792
+cat__cp_non-anginal,0.015496605983481522
+cat__dataset_VA Long Beach,0.01524068966121206
+cat__slope_flat,0.014543475750181785
+cat__slope_upsloping,0.012962718779733045
+cat__dataset_Cleveland,0.012692117650110479
+cat__restecg_normal,0.012531467041393326
+cat__fbs_True,0.011539121678099043
+cat__fbs_False,0.010699683872262722
+cat__restecg_st-t abnormality,0.010355170767779276
+cat__restecg_lv hypertrophy,0.009279784647562545
+cat__cp_typical angina,0.007750119096288064
+cat__thal_fixed defect,0.0055044695201143445
+cat__slope_downsloping,0.005304721970610333

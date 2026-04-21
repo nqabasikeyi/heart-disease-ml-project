@@ -1,0 +1,5 @@
+{
+  "logistic_regression_accuracy": 0.842391304347826,
+  "random_forest_accuracy": 0.8532608695652174,
+  "best_model": "Random Forest"
+}
