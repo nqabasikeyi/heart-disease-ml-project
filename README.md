@@ -19,6 +19,15 @@ The goal is to compare different classification models and evaluate their abilit
 
 ---
 
+## 📒 Project Structure
+
+- `analysis_uci_heart.ipynb` — main notebook
+- `data/` — dataset files
+- `outputs/` — saved metrics, plots, and trained model
+- `README.md` — project overview
+
+---
+
 ## 📊 Dataset
 
 * Source: UCI Heart Disease Dataset
