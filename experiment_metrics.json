@@ -1,0 +1,52 @@
+{
+  "dataset_rows": 920,
+  "features": 13,
+  "negative_cases": 411,
+  "positive_cases": 509,
+  "training_rows": 736,
+  "heldout_rows": 184,
+  "selected_model": "Random Forest",
+  "selected_hyperparameters": {
+    "model__n_estimators": 300,
+    "model__min_samples_split": 2,
+    "model__min_samples_leaf": 2,
+    "model__max_features": "sqrt",
+    "model__max_depth": 8,
+    "model__class_weight": "balanced"
+  },
+  "selection_metric": "stratified five-fold training CV ROC-AUC",
+  "threshold_criterion": "maximum F2 on training out-of-fold predictions",
+  "threshold": 0.24,
+  "test_results": [
+    {
+      "Configuration": "Default threshold",
+      "Threshold": 0.5,
+      "Accuracy": 0.8532608695652174,
+      "Precision": 0.8504672897196262,
+      "Recall": 0.8921568627450981,
+      "F1": 0.8708133971291866,
+      "F2": 0.883495145631068,
+      "ROC-AUC": 0.9238402678144428,
+      "Average precision": 0.9381098348740466,
+      "TN": 66,
+      "FP": 16,
+      "FN": 11,
+      "TP": 91
+    },
+    {
+      "Configuration": "Training-selected threshold",
+      "Threshold": 0.24,
+      "Accuracy": 0.7989130434782609,
+      "Precision": 0.7372262773722628,
+      "Recall": 0.9901960784313726,
+      "F1": 0.8451882845188284,
+      "F2": 0.926605504587156,
+      "ROC-AUC": 0.9238402678144428,
+      "Average precision": 0.9381098348740466,
+      "TN": 46,
+      "FP": 36,
+      "FN": 1,
+      "TP": 101
+    }
+  ]
+}
